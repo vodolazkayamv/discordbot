@@ -3,6 +3,14 @@ var jsonfile = require('jsonfile')
 var Discord = require("discord.js");
 var bot = new Discord.Client();
 
+var http = require('http');
+
+http.createServer(function (request, response) {
+  console.log('Creating server...');
+}).listen(5000);
+
+console.log('Server running at http://127.0.0.1:5000/');
+
 bot.on("message", msg => {
   // Set the prefix
   let prefix = "!";
