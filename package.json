@@ -11,7 +11,7 @@
     "url": "https://github.com/vodolazkayamv/discordbot/issues"
   },
   "scripts": {
-    "start": "pm2 start normal.js"
+    "start": "node normal.js"
   },
   "author": "Masha",
   "license": "MIT",
