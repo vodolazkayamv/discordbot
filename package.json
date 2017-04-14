@@ -1,0 +1,21 @@
+{
+  "name": "normal",
+  "version": "2.0.0",
+  "description": "Masha's little talking rat (actually a bot)",
+  "main": "normal.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vodolazkayamv/discordbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vodolazkayamv/discordbot/issues"
+  },
+  "scripts": {
+    "start": "pm2 start normal.js"
+  },
+  "author": "Masha",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.0.0"
+  }
+}
